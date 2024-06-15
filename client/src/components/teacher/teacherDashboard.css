@@ -1,0 +1,137 @@
+/* /* /* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li {
+  cursor: pointer;
+}
+
+/* Course card styles */
+.class-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; /* Increase gap between cards */
+}
+
+.class-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Limiting card width to 300px */
+}
+
+.class-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.class-card p {
+  color: #666;
+}
+
+.class-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Create course modal styles */
+.create-course-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  height: 70%;
+}
+
+.modal-content h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content input,
+.modal-content textarea {
+  margin-bottom: 20px;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-content input[type="file"] {
+  padding: 7px;
+}
+
+.modal-content button {
+  padding: 10px 30px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button[type="button"] {
+  background-color: #ccc;
+  margin-right: 10px;
+  padding: 15px 25px;
+}
+
+ 
+.modal-content button#cc[type="button"] {
+  background-color:darkgreen;
+  margin-right: 20px;
+  padding: 15px 25px;
+  left: 10px;
+  position: relative;
+  top: -5px;
+}
+.modal-content button#c[type="button"] {
+  margin-right: 30px;
+  padding: 15px 25px;
+  left: 240px;
+  position: relative;
+  top: -70px;
+  background-color: #ae5b5b;
+}
+
+.modal-content button[type="button"]:hover {
+  background-color: #bbb;
+}
+
+.modal-content button[type="button"]:last-child {
+  margin-right: 0;
+}

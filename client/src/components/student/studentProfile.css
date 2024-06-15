@@ -1,0 +1,39 @@
+/* studentProfile.css */
+
+.student-profile {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.courses-enrolled {
+    margin-top: 20px;
+}
+
+.courses-enrolled h3 {
+    margin-bottom: 10px;
+}
+
+.courses-enrolled ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.courses-enrolled li {
+    margin: 5px 0;
+    font-weight: bold;
+}

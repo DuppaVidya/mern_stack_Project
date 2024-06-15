@@ -1,0 +1,104 @@
+/* Navbar styles (can be reused from loginStyles.css) */
+/* Content styles */
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 20px solid #f9f9f9;
+  width: 900px;
+  height: 500px;
+  background: #f9f9f9;
+ position: absolute;
+ left: 150px;
+ border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-side{
+  flex: 1;
+  padding: 20px;
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 500px;
+  stroke: black;
+}
+
+.left-side h2{
+  margin-top: 2px;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  padding:7px;
+  position: relative;
+  left: 85px;
+}
+
+.left-side input{
+  width: 80%;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  position: relative;
+  left: 15px;
+}
+
+.left-side button{
+padding:15px 40px;
+border-radius: 10px; 
+color: #333;
+background-color:rgb(225, 235, 92); 
+position: relative;
+left: 90px;
+top:5px;
+}
+.left-side button:hover{
+background-color: aqua;
+}
+.left-side button::after{
+background-attachment: fixed;;
+}
+.left-side p{
+font-size: 15px;
+position: relative;
+left: 50px;
+top: 10px;
+}
+.left-side h3{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  font-weight: 500;
+  margin:60px 70px;
+}
+.right-side1{
+  flex:2;
+  padding:0;
+
+  
+}
+.right-side1 h2 {
+display: flex;
+align-items: center;
+padding: 30px 80px;
+position: relative;
+left: 50px;
+}
+.right-side1 p {
+display: flex;
+align-items: center;
+position: relative;
+left:100px;
+top:-30px;
+}
+
+.right-side1 img{
+width:100%;
+position: relative;
+top:-40px;
+left:20px;
+}

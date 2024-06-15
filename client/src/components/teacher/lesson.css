@@ -1,0 +1,124 @@
+.l-home{
+    display: flex;
+    background: #555;
+    margin: 30px;
+}
+.r-lesson{
+    flex: 40%;
+    padding: 20px;
+    height: 50vh;
+   
+    
+}
+.r-lesson-form{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.l-lesson{
+    flex: 60%;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+
+details > summary {
+    padding: 10px;
+    width: 95%;
+    height: 40px;
+    background-color: #eeeeee;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+    details > summary::-webkit-details-marker {
+        display: none;
+    }
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    height: 100%;
+    gap: 10px;
+}
+form input {
+    padding:7px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+form label {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+form button:hover {
+    background-color: #555;
+}
+form select {
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+form textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* LessonCard.css */
+
+.lesson-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.lesson-card h4 {
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 18px;
+}
+
+.lesson-card p {
+    color: #555555;
+    line-height: 1.5;
+}
+
+.lesson-card button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.lesson-card button:hover {
+    background-color: #45a049;
+}
